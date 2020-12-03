@@ -183,7 +183,7 @@ figure{
   color: white;
 }
 
-@media screen and(max-width: 1024px){
+@media screen and (max-width: 1024px){
 
   .container{
     padding: 0 1.5em;
@@ -192,14 +192,17 @@ figure{
     margin: 15px;
   }
   .event-detail h3{
-    font-size: 20px;
+    font-size: 20px
   }
   .event-detail p{
-    font-size: 18px;
+    font-size: 18px
+  }
+  .event-detail a{
+    padding: 10px 100px;
   }
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
 
   .burger-button{
     display: block;
@@ -207,16 +210,16 @@ figure{
 
   .menu{
     position: fixed;
-    background-color: aqua;
+    background-color: #738faab6;
     z-index: 1;
     top: 0;
     bottom: 0;
-    left: -80vw;
+    left: -100vw;
     width: 80vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    transition: .3s
   }
   .menu.is-active{
     left: 0;
@@ -229,14 +232,14 @@ figure{
     display: initial;
   }
   .header ul li{
-    height: 60px;
+    height: 50px;
     justify-content: center;
   }
   .header a{
     justify-content: center;
-    height: 50px;
+    height: 40px;
     font-size: 1.5em;
-    text-decoration: #026fff;
+    text-decoration: underline;
     margin-bottom: .5em;
   }
   .header .logo{
@@ -246,24 +249,56 @@ figure{
     width: auto;
     flex-shrink: initial;
   }
-  .even img{
+  .event img{
     width: 100%;
+  }
+  .event-imageContainer{
+    width: 100%;
+  }
+  .event-detail a{
+    padding: 10px 100px;
   }
 }
 
-@media screen and(max-width: 424px){
-  .event-detail hr{
-    font-size:16px;
+@media screen and (max-width: 424px){
+  .event-detail h3{
+    font-size: 16px
   }
   .event-detail p{
-    font-size: 14px;
+    font-size: 14px
   }
   .menu{
     width: 90vw;
+  }
+  .event-detail a{
+    padding: 10px 100px;
   }
   .footer{
     display: block;
     text-align: center;
     border: 1px solid transparent;
+  }
+  .header{
+    padding: unset;
+  }
+}
+@media screen and (max-width: 1440px){
+
+  .container{
+    padding: 0 1.5em;
+  }
+  .event-title{
+    margin: 15px;
+  }
+  .event-detail h3{
+    font-size: 20px
+  }
+  .event-detail p{
+    font-size: 18px
+  }
+  .event-detail a{
+    padding: 10px 100px;
+    background-color: #738faab6;
+    color: rgb(14, 13, 14);
   }
 }

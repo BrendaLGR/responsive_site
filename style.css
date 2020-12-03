@@ -302,3 +302,50 @@ figure{
     color: rgb(14, 13, 14);
   }
 }
+
+@media screen and (max-width: 2560px){
+
+  .container{
+    padding: 0 1.5em;
+  }
+  .event-title{
+    margin: 15px;
+  }
+  .event-detail h3{
+    font-size: 20px
+  }
+  .event-detail p{
+    font-size: 18px
+  }
+  .event-detail a{
+    padding: 10px 100px;
+  }
+   .event-detail a{
+    padding: 10px 100px;
+    background-color: #738faab6;
+    color: rgb(14, 13, 14);
+  }
+}
+
+@media screen and (max-width: 360px){
+  .event-detail h3{
+    font-size: 16px
+  }
+  .event-detail p{
+    font-size: 14px
+  }
+  .menu{
+    width: 90vw;
+  }
+  .event-detail a{
+    padding: 10px 100px;
+  }
+  .footer{
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+  }
+  .header{
+    padding: unset;
+  }
+}
